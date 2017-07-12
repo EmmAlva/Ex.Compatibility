@@ -1,11 +1,26 @@
 *{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box
 }
 body{
      color: #fff;
+}
+.p-0{
+    padding: 0 !important;
+}
+.p-15{
+    padding: 15px;
+}
+.p-30{
+    padding: 30px;
+}
+.mb-0{
+    margin-bottom: 0 !important;
+}
+section{
+    padding: 50px 0;
 }
 #portada{
     background-image: url('../img/banner.jpg');
@@ -14,39 +29,109 @@ body{
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
-    
+    display: flex;
+    align-items: center;   
 }
-.btn_intro{
+.menu{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+.menu_icon{
+    margin-left: 5px;
+}
+.intro_flex .row{
+    display: flex;
+    justify-content: center;
+}
+#btn_intro{
+    background: none;
     border: none;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    font-size: 4rem;
     padding: 10px;
+ 
 }
-.btn_adopte{
+.text_intro{
+    font-size: 1.2rem;
+}
+#btn_adopte{
     border:none;
-    background: red;
+    background:coral;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 15px 40px;
+    margin-top: 20px;
+}
+.more{
+    margin-top: 80px;
+}
+.more p{
+    font-size: 1.2rem;
+    
 }
 /*/DESCRIPTION*/
 #intro{
        background-color: turquoise;
 }
+.intro_icons img{
+    margin: 0 20px;
+}
 /*features*/
 #description{
-    background-color:gray;
+    background-color: #2b2d3c;
+    padding: 0;
+}
+#description .row{
+   background: linear-gradient(to bottom right, #0c0c0c, #383333);
 }
 .img_descri{
     width: 100%;
     height: 100%;
 }
+.desc_text{
+  padding: 60px !important ;
+  
+}
+.desc_text p:first-child{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+
+}
+/*FEATURES*/
 #feature{
-    background-color: purple;
+    background-color: #9356f2;
 }
 #feature .col.l6{
     height: 200px;
     padding: 20px;
 }
-h6{
+#feature h5{
+    text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+.feat_intro p{
+    margin: 20px 0;
+}
+.bg_f1{
+    background-color: #744de9;
+
+}
+.bg_f2{
+    background-color: linear-gradient( #3c277f, #744de9);
+}
+.bg_f3{
+    background-color: linear-gradient( #3c277f, #744de9);
+    
+
+}
+.bg_f14{
+    background-color: linear-gradient( #3c277f, #744de9);
+
 }
 
 

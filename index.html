@@ -8,57 +8,55 @@
     <link rel="stylesheet" href="assets/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <!--FUENTE-->
-    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
 </head>
 <body>
-    <header id="portada">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">DOG</a>
-                <a href="#" data-activates ="mobile-demo" class="button-collapse"><i class="material-icons">m</i></a>
-                <ul class="rigth hide-on-med-and-down">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">GENERIC</a></li>
-                    <li><a href="#">ELEMENTS</a></li>
-                    <li><a href="#">SIGN UP</a></li>
-                    <li><a href="#">LOG IN</a></li>
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">GENERIC</a></li>
-                    <li><a href="#">ELEMENTS</a></li>
-                    <li><a href="#">SIGN UP</a></li>
-                    <li><a href="#">LOG IN</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container" >
+    <header id="portada">        
+        <div class="nav-wrapper">
+            <a href="#" data-activates ="mobile-demo" class="button-collapse menu">MENU <img src="assets/img/icons/bars.svg" alt="menu" class="menu_icon" ></a>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">GENERIC</a></li>
+                <li><a href="#">ELEMENTS</a></li>
+                <li><a href="#">SIGN UP</a></li>
+                <li><a href="#">LOG IN</a></li>
+            </ul>
+        </div>
+        
+        <div class="container intro_flex" >
             <div class="row">
-                <div class="col l12">
-                    <button id="btn_intro">PUPPY LOVE</button>
-                    <p>ESTAMOS AQUÍ PARA LOS CACHORROS</p>
-                    <p>LOS CACHORROS SON PURO AMOR </p>
+                <div class="col l12 center">
+                    <button id="btn_intro" class="" >PUPPY LOVE</button>
+                    <div class="text_intro p-30">
+                        <p>ESTAMOS AQUÍ PARA LOS CACHORROS</p>
+                        <p>LOS CACHORROS SON PURO AMOR </p>
+                    </div>
                     <button id="btn_adopte">ADOPTE!</button>
 
-                    <span>LEER MÁS</span>
-                    <div><img src="assets/img/icons/arrow.svg" alt="flechahaciabajo"></div>
+                    <div class="more">
+                        <p >LEER MÁS</p>
+                        <br>
+                        <div><img src="assets/img/icons/arrow.svg" alt="flechahaciabajo"></div>
+                    </div>
                 </div>
             </div>
         </div>
-
     </header>
     <section id="intro">
          <div class="container">
             <div class="row">
-                <div class="col l12">
-                    <h3>LOS CACHORROS SON EXCELENTES COMPAÑEROS.¡TENEMOS MUCHOS AMIGOS CANINOS QUE ESPERAN CONOCERLE!</h3>
+                <div class="col l12 center">
+                    <h5><strong>LOS CACHORROS SON EXCELENTES COMPAÑEROS.</strong></h5>
+                    <h5><strong>!TENEMOS MUCHOS AMIGOS CANINOS QUE ESPERAN CONOCERTE!</strong></h5>
                     <hr>
-                    <p>Nosotros le ayudaremos a encontrar un cachorro que se adapte con sus intereses y estilo de vida.</p>
-                    <p>¡Visite nuestro centro de adopciones para encontrar un amigo pequeño y grande amor!</p>
+                    <div class="text_intro p-30">
+                         <p>Nosotros le ayudaremos a encontrar un cachorro que se adapte con sus intereses y estilo de vida.</p>
+                         <p>¡Visite nuestro centro de adopciones para encontrar un amigo pequeño y grande amor!</p>
+                    </div>                   
                 </div>
             </div>
             <div class="row">
-                <div class="col l12 center">
+                <div class="col l12 center intro_icons">
                     <img src="assets/img/icons/collar.svg" alt="collar">
                     <img src="assets/img/icons/bone.svg" alt="hueso">
                     <img src="assets/img/icons/pet-plate.svg" alt="plato">
@@ -67,28 +65,26 @@
       </div>
 
     </section>
-   
-
     <section  id="description">
-       
-            <div class="row">
-                <img class="img_descri col l3" src="assets/img/pic01.jpg" alt="puppyskate">
-                <div class="col l9">
-                <p>Es un perro rescatado</p>
-                <p>Un Wuf es un perro que ha sido rescatado del abandono o una mala crianza. Todos ellos han pasado por un proceso de socialización en los albergues, lo que garantiza su recuperación.</p>
-                </div>                   
-            </div>
-            <div class="row">
-                <div class="col l9">
-                    <p>Es un perro único</p>
+            <div class="row mb-0 ">
+                <img class="img_descri col l4 p-0" src="assets/img/pic01.jpg" alt="puppyskate">
+                <div class="col l8 desc_text">
+                    <p> ES UN PERRO RESCATADO </p>
+                    <p>Un Wuf es un perro que ha sido rescatado del abandono o una mala crianza. Todos ellos han pasado por un proceso de socialización en los albergues, lo que garantiza su recuperación.</p>
+                </div>   
+            </div>                
+          
+            <div class="row mb-0">
+                <div class="col l8 desc_text">
+                    <p> ES UN PERRO ÚNICO </p>
                     <p>Todos los Wufs son sobrevivientes, son héroes con historias y experiencias que los hacen únicos.</p>   
                 </div>
-                <img class="img_descri col l3" src="assets/img/pic02.jpg" alt="puppyrest">                
+                <img class="img_descri col l4 p-0" src="assets/img/pic02.jpg" alt="puppyrest">                
             </div>
-            <div class="row">
-                <img class="img_descri col l3" src="assets/img/pic03.jpg" alt="puppy">
-                <div class="col l9">
-                    <span>Es un perro noble</span>   
+            <div class="row mb-0">
+                <img class="img_descri col l4 p-0" src="assets/img/pic03.jpg" alt="puppy">
+                <div class="col l8 desc_text">
+                    <p>ES UN PERRO NOBLE</p>   
                     <p>Un Wuf agradecerá siempre poder compartir su vida a tu lado. Será un amigo fiel que te acompañará y alegrará tus días.</p>
                 </div>
             </div>
@@ -98,37 +94,35 @@
     <section id="feature">
         <div class="container">
              <div class="row">
-                <div class="col l12">
-                  
-                    <h5>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quia debitis vel sit quo incidunt deleniti ad ipsam totam nostrum. Rem ea quos sint aliquam deleniti veritatis aut, ducimus deserunt.                        
+                <div class="col l12 center feat_intro">
+                    <h5>Suscipit quia debitis vel sit qucimus deserunt.                        
                     </h5>
                     <hr>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veniam doloremque, iure commodi quia cupiditate tempore voluptas similique consequatur temporibus! Facere odio perferendis eveniet eius consequuntur iure culpa doloremque alias.
+                        Modi veniam doloremque, iureptas similique consequatur temporibus! Facere odio perferendis eveniet eius consequuntur iure culpa doloremque alias.
                     </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col l6">
+                <div class="col l6 bg_f1">
                 <img src="assets/img/icons/bone-rotate.svg" alt="hueso">
                <h6>ALIMENTACIÓN ADECUADA</h6>
                <p>
                     Asegurate que la dieta de tu mascota sea acorde a su edad y su peso. Es importante para una buena calidad de vida.
                </p>
              </div>
-            <div class="col l6">
+            <div class="col l6 bg_f2">
                 <img src="assets/img/icons/pet-house.svg" alt="pethouse">
                 <h6>ESPACIOS IDÓNEOS</h6>
                 <p> Proporciónale un espacio donde pueda jugar, descansar, desenvolverse y ser parte activa de la vida de tu familia.       </p>
             </div>
         <div class="row">
-             <div class="col l6"> 
+             <div class="col l6 bg_f3"> 
                  <img src="assets/img/icons/pet.svg" alt="petfriend">
                  <h6>Es Familia </h6>
                  <p>   Tener un peludito es de gran beneficio para niños y adultos mayores, siempre que se decida cuidar de ellos en consciencia. </p>
             </div>
-            <div class="col l6">
+            <div class="col l6 bg_f4">
                 <img src="assets/img/icons/track.svg" alt="track">
                 <h6>
                 Tener un peludito en casa implica una gran responsabilidad.
