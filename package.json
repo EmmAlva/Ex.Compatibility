@@ -1,0 +1,29 @@
+{
+  "name": "e.compatibility",
+  "version": "1.0.0",
+  "description": "browser, acc, SEO",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmAlva/Ex.Compatibility.git"
+  },
+  "keywords": [
+    "browser",
+    "access",
+    "SEO"
+  ],
+  "author": "Emma Tapia <rocio.emma.tapia.alva@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmAlva/Ex.Compatibility/issues"
+  },
+  "homepage": "https://github.com/EmmAlva/Ex.Compatibility#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "materialize-css": "^0.99.0"
+  }
+}
