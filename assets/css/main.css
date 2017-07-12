@@ -41,6 +41,13 @@ body{
 #feature{
     background-color: purple;
 }
+#feature .col.l6{
+    height: 200px;
+    padding: 20px;
+}
+h6{
+    font-weight: bold;
+}
 
 
 /*endPAge*/
